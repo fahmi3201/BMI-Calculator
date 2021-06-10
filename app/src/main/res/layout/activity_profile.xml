@@ -30,6 +30,7 @@
             android:layout_marginTop="75dp"
             android:layout_centerHorizontal="true"
             android:text="ABOUT"
+            android:textStyle="bold"
             android:textSize="30sp"
             tools:layout_editor_absoluteX="90dp"
             tools:layout_editor_absoluteY="86dp"/>
@@ -41,7 +42,17 @@
             android:layout_marginTop="150dp"
             android:layout_marginLeft="30dp"
             android:textSize="18dp"
-            android:text="DEVELOPER DETAIL : \n\n Group : RCS2405C \n Programme Code : CS240
+            android:text="DEVELOPER DETAIL :"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView12"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="150dp"
+            android:layout_marginLeft="30dp"
+            android:textSize="18dp"
+            android:text="\n\n Group : RCS2405C \n Programme Code : CS240
  \n Course Code : ICT602 \n\n Group Member : \n Ahmad Fahmi bin Abu Bakar \n(2019312159)\n
 Muhamad Faris Farhan Bin Fauzi (2019579545)" />
 
@@ -51,7 +62,17 @@ Muhamad Faris Farhan Bin Fauzi (2019579545)" />
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
             android:layout_marginTop="400dp"
-            android:text="INFORMATION : \n
+            android:text="\n INFORMATION : "
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+
+        <TextView
+            android:id="@+id/textView10"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="30dp"
+            android:layout_marginTop="400dp"
+            android:text="\n\n\n
 This Android Mobile Application will \n calculate the Body Mass Index (BMI). \n His height and weight were input so that \n his BMI category, range, and health \n risk could be calculated."
             android:textSize="18dp" />
 
@@ -60,9 +81,9 @@ This Android Mobile Application will \n calculate the Body Mass Index (BMI). \n 
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
-            android:layout_marginTop="580dp"
-            android:text="Copyright Statement \n Application Website Url: \n https://github.com/fahmi3201/BMI-Calculator"
-            android:textSize="18dp" />
+            android:layout_marginTop="635dp"
+            android:text="Copyright Statement \n Application Website Url: © 2021 BMI Calculator \n https://github.com/fahmi3201/BMI-Calculator"
+            android:textSize="16dp" />
 
     </RelativeLayout>
 </androidx.constraintlayout.widget.ConstraintLayout>
