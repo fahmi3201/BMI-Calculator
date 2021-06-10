@@ -46,7 +46,7 @@
             android:textStyle="bold"/>
 
         <TextView
-            android:id="@+id/textView12"
+            android:id="@+id/textView13"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginTop="150dp"
@@ -67,7 +67,7 @@ Muhamad Faris Farhan Bin Fauzi (2019579545)" />
             android:textStyle="bold"/>
 
         <TextView
-            android:id="@+id/textView10"
+            android:id="@+id/textView14"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_marginLeft="30dp"
