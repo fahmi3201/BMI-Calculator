@@ -54,7 +54,7 @@
             android:textSize="18dp"
             android:text="\n\n Group : RCS2405C \n Programme Code : CS240
  \n Course Code : ICT602 \n\n Group Member : \n Ahmad Fahmi bin Abu Bakar \n(2019312159)\n
-Muhamad Faris Farhan Bin Fauzi (2019579545)" />
+Muhamad Faris Farhan Bin Fauzi \n (2019579545)" />
 
         <TextView
             android:id="@+id/textView10"
