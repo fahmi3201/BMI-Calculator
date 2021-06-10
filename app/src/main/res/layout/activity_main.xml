@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="@drawable/purple1"
+        android:orientation="vertical"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <ImageView
+            android:id="@+id/imageButton"
+            android:layout_width="64dp"
+            android:layout_height="45dp"
+            android:layout_gravity="right"
+            android:layout_marginTop="20dp"
+            app:srcCompat="@drawable/profile" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="25dp"
+            android:background="@color/purple_200"
+            android:gravity="center_horizontal"
+            android:text="Body Mass Index Calculator"
+            android:textAlignment="center"
+            android:textColor="@color/black"
+            android:textSize="35dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintHorizontal_bias="0.498"
+            app:layout_constraintLeft_toLeftOf="parent"
+            app:layout_constraintRight_toRightOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:layout_constraintVertical_bias="0.068" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="55dp"
+            android:text="Weight"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="165dp"
+            tools:layout_editor_absoluteY="173dp" />
+
+        <EditText
+            android:id="@+id/weight"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="25dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter your weight (kg)"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="220dp" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="40dp"
+            android:text="Height"
+            android:textColor="@color/white"
+            android:textSize="25dp"
+            tools:layout_editor_absoluteX="169dp"
+            tools:layout_editor_absoluteY="301dp" />
+
+        <EditText
+            android:id="@+id/height"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+
+            android:layout_marginTop="20dp"
+            android:ems="10"
+            android:gravity="center"
+            android:hint="Enter your height (cm)"
+            android:inputType="textPersonName"
+            android:textColor="@color/white"
+            android:visibility="visible"
+            tools:layout_editor_absoluteX="100dp"
+            tools:layout_editor_absoluteY="354dp" />
+
+        <Button
+            android:id="@+id/calculate"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="30dp"
+            android:text="Calculate"
+            android:textColor="@color/white"
+            tools:layout_editor_absoluteX="145dp"
+            tools:layout_editor_absoluteY="443dp" />
+
+        <TextView
+            android:id="@+id/result"
+            android:layout_width="209dp"
+            android:layout_height="88dp"
+            android:layout_gravity="center"
+            android:text=""
+            tools:layout_editor_absoluteX="101dp"
+            tools:layout_editor_absoluteY="543dp" />
+
+
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
